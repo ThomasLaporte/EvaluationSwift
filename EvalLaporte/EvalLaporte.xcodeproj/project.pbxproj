@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1830AF1EBC82EA002785A5 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1830AE1EBC82EA002785A5 /* Picture.swift */; };
+		7DFD6A521EBC58AB00D61903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6A511EBC58AB00D61903 /* AppDelegate.swift */; };
+		7DFD6A541EBC58AB00D61903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6A531EBC58AB00D61903 /* ViewController.swift */; };
+		7DFD6A571EBC58AB00D61903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD6A551EBC58AB00D61903 /* Main.storyboard */; };
+		7DFD6A591EBC58AB00D61903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD6A581EBC58AB00D61903 /* Assets.xcassets */; };
+		7DFD6A5C1EBC58AB00D61903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD6A5A1EBC58AB00D61903 /* LaunchScreen.storyboard */; };
+		DF98FD4C97B1132BB547E3DB /* Pods_EvalLaporte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9C393E703FDC1BC43F6E51 /* Pods_EvalLaporte.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		087ABD9D2E4687322A702E73 /* Pods-EvalLaporte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvalLaporte.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvalLaporte/Pods-EvalLaporte.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1830AE1EBC82EA002785A5 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		7DFD6A4E1EBC58AB00D61903 /* EvalLaporte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvalLaporte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFD6A511EBC58AB00D61903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DFD6A531EBC58AB00D61903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DFD6A561EBC58AB00D61903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DFD6A581EBC58AB00D61903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DFD6A5B1EBC58AB00D61903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DFD6A5D1EBC58AB00D61903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890B6E20B35A881C26FD52DF /* Pods-EvalLaporte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvalLaporte.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvalLaporte/Pods-EvalLaporte.release.xcconfig"; sourceTree = "<group>"; };
+		DF9C393E703FDC1BC43F6E51 /* Pods_EvalLaporte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvalLaporte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DFD6A4B1EBC58AB00D61903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF98FD4C97B1132BB547E3DB /* Pods_EvalLaporte.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E941FAB774D15C691D090BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF9C393E703FDC1BC43F6E51 /* Pods_EvalLaporte.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54750311FEBC70E65383C49B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				087ABD9D2E4687322A702E73 /* Pods-EvalLaporte.debug.xcconfig */,
+				890B6E20B35A881C26FD52DF /* Pods-EvalLaporte.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DFD6A451EBC58AB00D61903 = {
+			isa = PBXGroup;
+			children = (
+				7DFD6A501EBC58AB00D61903 /* EvalLaporte */,
+				7DFD6A4F1EBC58AB00D61903 /* Products */,
+				54750311FEBC70E65383C49B /* Pods */,
+				3E941FAB774D15C691D090BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DFD6A4F1EBC58AB00D61903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD6A4E1EBC58AB00D61903 /* EvalLaporte.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DFD6A501EBC58AB00D61903 /* EvalLaporte */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD6A511EBC58AB00D61903 /* AppDelegate.swift */,
+				7DFD6A531EBC58AB00D61903 /* ViewController.swift */,
+				7DFD6A551EBC58AB00D61903 /* Main.storyboard */,
+				7DFD6A581EBC58AB00D61903 /* Assets.xcassets */,
+				7DFD6A5A1EBC58AB00D61903 /* LaunchScreen.storyboard */,
+				7DFD6A5D1EBC58AB00D61903 /* Info.plist */,
+				7D1830AE1EBC82EA002785A5 /* Picture.swift */,
+			);
+			path = EvalLaporte;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DFD6A4D1EBC58AB00D61903 /* EvalLaporte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFD6A601EBC58AB00D61903 /* Build configuration list for PBXNativeTarget "EvalLaporte" */;
+			buildPhases = (
+				451B6DD2B5A4F7C5F3CDDDB9 /* [CP] Check Pods Manifest.lock */,
+				7DFD6A4A1EBC58AB00D61903 /* Sources */,
+				7DFD6A4B1EBC58AB00D61903 /* Frameworks */,
+				7DFD6A4C1EBC58AB00D61903 /* Resources */,
+				C05481A90C48AE6FC29CEEC4 /* [CP] Embed Pods Frameworks */,
+				DE680F09EAB00DAE47CC7498 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvalLaporte;
+			productName = EvalLaporte;
+			productReference = 7DFD6A4E1EBC58AB00D61903 /* EvalLaporte.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DFD6A461EBC58AB00D61903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = stagiaire;
+				TargetAttributes = {
+					7DFD6A4D1EBC58AB00D61903 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7DFD6A491EBC58AB00D61903 /* Build configuration list for PBXProject "EvalLaporte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DFD6A451EBC58AB00D61903;
+			productRefGroup = 7DFD6A4F1EBC58AB00D61903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DFD6A4D1EBC58AB00D61903 /* EvalLaporte */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DFD6A4C1EBC58AB00D61903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFD6A5C1EBC58AB00D61903 /* LaunchScreen.storyboard in Resources */,
+				7DFD6A591EBC58AB00D61903 /* Assets.xcassets in Resources */,
+				7DFD6A571EBC58AB00D61903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		451B6DD2B5A4F7C5F3CDDDB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C05481A90C48AE6FC29CEEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvalLaporte/Pods-EvalLaporte-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE680F09EAB00DAE47CC7498 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvalLaporte/Pods-EvalLaporte-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DFD6A4A1EBC58AB00D61903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1830AF1EBC82EA002785A5 /* Picture.swift in Sources */,
+				7DFD6A541EBC58AB00D61903 /* ViewController.swift in Sources */,
+				7DFD6A521EBC58AB00D61903 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DFD6A551EBC58AB00D61903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFD6A561EBC58AB00D61903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DFD6A5A1EBC58AB00D61903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFD6A5B1EBC58AB00D61903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DFD6A5E1EBC58AB00D61903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DFD6A5F1EBC58AB00D61903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DFD6A611EBC58AB00D61903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087ABD9D2E4687322A702E73 /* Pods-EvalLaporte.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EvalLaporte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stagiaire.EvalLaporte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7DFD6A621EBC58AB00D61903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890B6E20B35A881C26FD52DF /* Pods-EvalLaporte.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EvalLaporte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stagiaire.EvalLaporte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DFD6A491EBC58AB00D61903 /* Build configuration list for PBXProject "EvalLaporte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFD6A5E1EBC58AB00D61903 /* Debug */,
+				7DFD6A5F1EBC58AB00D61903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFD6A601EBC58AB00D61903 /* Build configuration list for PBXNativeTarget "EvalLaporte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFD6A611EBC58AB00D61903 /* Debug */,
+				7DFD6A621EBC58AB00D61903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DFD6A461EBC58AB00D61903 /* Project object */;
+}
